@@ -1,24 +1,4 @@
 `timescale 1ns / 1ns
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 11/19/2026 01:24:20 PM
-// Design Name: 
-// Module Name: stopwatch
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module stopwatch(
     input logic clk,         // System clock (100MHz)
