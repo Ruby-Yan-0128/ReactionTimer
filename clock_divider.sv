@@ -12,7 +12,7 @@ output logic clk_out    // output clock (default 1kHz)
     always_ff @(posedge clk_in) begin
         if (rst) begin 
             counter <= 0; 
-            clk_out = 0;
+            clk_out <= 0;
         end else if (counter == HALF - 1) begin     // 1 cycle of clk_out = DIVISOR cycles of clk_in
             counter <= 0; 
             clk_out <= ~clk_out;    // flip clk_out for half cycle 
